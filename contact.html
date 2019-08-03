@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matvey Gorskiy</title>
+    <link rel="stylesheet" href="/js/animation/revealator.css">
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
+    <script>
+    $(window).on('load', function () {
+    $preloader = $('.preloader-main'),
+    $loader = $preloader.find('.preloader');
+    $loader.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+  });
+ 
+    </script>
+
+    <script src="/js/main.js"></script> 
+</head>
+<body>
+    <div class="preloader-main">
+        <div class="preloader">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+            <div class="item-5"></div>
+        </div>
+    </div>
+              
+    <div class="container"> 
+        <section class="main-section">
+            <header class="header" id="header">
+                <div class="logo revealator-slideright revealator-delay2">
+                    <a href="index.html" class="logo_link header_link">
+                        <div class="logo_image">
+                            <span >M</span>
+                        </div>
+                        <p class="logo_name">Матвей <span class="logo-name__hidden">Горский</span></p>
+                    </a>
+                </div>
+                <nav class="nav revealator-slideleft revealator-delay2">
+                    <ul class="nav-ul">
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="about.html">Обо мне</a></li>
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="works.html">Работы</a></li>
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="contact section-padding">
+                <div class="main-title-block">
+                    <span class="word contact_word" data-word="Contact" style="--word-index:0;"><span class="char" data-char="C" style="--char-index:0;">C</span><span class="char" data-char="o" style="--char-index:1;">o</span><span class="char" data-char="n" style="--char-index:2;">n</span><span class="char" data-char="t" style="--char-index:3;">t</span><span class="char" data-char="a" style="--char-index:4;">a</span><span class="char" data-char="c" style="--char-index:5;">c</span><span class="char" data-char="t" style="--char-index:6;">t</span></span>
+                    <h2 class="main-title_headline revealator-slidedown revealator-once revealator-delay4">Связаться со мной👋</h2>
+                </div>
+                <p class="contact_text revealator-zoomin revealator-delay4">Если вы хотите чтобы я сделал сайт, исправил ошибки или пошел вместе поесть рамен 🍜, поиграть в настольный теннис 🏓, волейбол 🏐 или просто поговорить о CSS 🔥, не стесняйтесь сказать привет!</p>
+                <button class="learn-more email-button revealator-slideleft revealator-once revealator-delay8">
+                    <div class="circle">
+                    <span class="icon arrow"></span>
+                    </div>
+                    <a href="mailto:matveyweb@gmail.com" title="matveyweb@gmail.com" class="button-text">Напиши мне <span class="email-icon">✉</span></a>
+                </button> 
+            </section>
+        </section>
+        <footer class="footer footer-contact">
+            <ul class="footer_link-block">
+                <li class="footer_item"><a class="footer_link" target="_blank" href="https://t.me/DoodgeMatvey">Telegram</a></li>
+                <li class="footer_item"><a class="footer_link" target="_blank" href="https://www.instagram.com/belov.matvei/?hl=ru">Instagram</a></li>
+                <li class="footer_item"><a class="footer_link" target="_blank" href="https://freelancehunt.com/freelancer/Matvey_Belov.html?r=mWga5">FreelanceHunt</a></li>
+                <li class="footer_item"><a class="footer_link" target="_blank" href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%82%D0%B2%D0%B5%D0%B9-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9-206b37176/">LinkedIn</a></li>
+            </ul>
+            <p class="footer_copyright">© 2019 Матвей Горский - Пишите, пообщаемся. Ручная работа, сделано с душой ❤</p>
+        </footer>
+        
+    </div>
+
+   
+    <div id="toTop" title="Наверх" style="display: block;"> <img class="arrow-to-top" src="img/w512h5121390846468upcircular512.png" alt="error-arrow-img"> </div>
+    <script src="/js/animation/revealator.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matvey Gorskiy</title>
+    <link rel="stylesheet" href="/js/animation/revealator.css">
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
+    <script>
+    $(window).on('load', function () {
+    $preloader = $('.preloader-main'),
+    $loader = $preloader.find('.preloader');
+    $loader.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+  });
+    </script>
+
+    <script src="/js/main.js"></script> 
+</head>
+<body>
+    <div class="preloader-main">
+        <div class="preloader">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+            <div class="item-5"></div>
+        </div>
+    </div>
+              
+    <div class="container"> 
+        <section class="main-section">
+            <header class="header" id="header">
+                <div class="logo revealator-slideright revealator-delay2">
+                    <a href="index.html" class="logo_link header_link">
+                        <div class="logo_image">
+                            <span >M</span>
+                        </div>
+                        <p class="logo_name">Матвей <span class="logo-name__hidden">Горский</span></p>
+                    </a>
+                </div>
+                <nav class="nav revealator-slideleft revealator-delay2">
+                    <ul class="nav-ul">
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="about.html">Обо мне</a></li>
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="works.html">Работы</a></li>
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="portfolio section-padding">
+                <div class="main-title-block portfolio-title-block">
+                    <span class="word word__padding" data-word="Work" style="--word-index:0;"><span class="char" data-char="W" style="--char-index:0;">W</span><span class="char" data-char="o" style="--char-index:1;">o</span><span class="char" data-char="r" style="--char-index:2;">r</span><span class="char" data-char="k" style="--char-index:3;">k</span></span>
+                    <h2 class="main-title_headline headline__padding revealator-slidedown revealator-once revealator-delay4">Портфолио</h2>
+                </div>
+                <div class="portfolio-main">
+                    <div class="portfolio-block">
+                        <div class="works_item works_item__dark portfolio-block_item revealator-once revealator-zoomin revealator-delay8" >
+                            <a href="http://arendauto.zzz.com.ua/" target="_blank" class="works-link">
+                                <h3 class="works_describe">Аренда авто 👔</h3>
+                                <img class="image-portfolio" src="img/laptop.png" alt="Arenda auto">
+                            </a>
+                        </div>
+                         <div class="works_item works_item__light portfolio-block_item revealator-once revealator-zoomin revealator-delay8">
+                            <a href="http://taksimerr.zzz.com.ua/" target="_blank" class="works-link">
+                                <h3 class="works_describe">Таксимер 🚖</h3>
+                                <img class="image-portfolio" src="img/s-portf.png" alt="taksimer">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-block">
+                        <div class="works_item works_item__my-portfolio portfolio-block_item revealator-once revealator-zoomin revealator-delay#">
+                            <a href="index.html" target="_blank" class="works-link">
+                                <h3 class="works_describe">Мой сайт портфолио 🤸‍</h3>
+                                <img class="image-portfolio" src="img/portfolio-img.png" alt="portfolio">
+                            </a>
+                        </div>
+                         <div class="works_item works_item__alpha portfolio-block_item revealator-once revealator-zoomin revealator-delay#">
+                            <a href="http://ap.net.ua/" target="_blank" class="works-link">
+                                <h3 class="works_describe">Альфа Прилад 🔨</h3>
+                                <img class="image-portfolio" src="img/alpha.png" alt="alphaPrylad">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+            <footer class="footer">
+                <ul class="footer_link-block">
+                    <li class="footer_item"><a class="footer_link" target="_blank" href="https://t.me/DoodgeMatvey">Telegram</a></li>
+                    <li class="footer_item"><a class="footer_link" target="_blank" href="https://www.instagram.com/belov.matvei/?hl=ru">Instagram</a></li>
+                    <li class="footer_item"><a class="footer_link" target="_blank" href="https://freelancehunt.com/freelancer/Matvey_Belov.html?r=mWga5">FreelanceHunt</a></li>
+                    <li class="footer_item"><a class="footer_link" target="_blank" href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%82%D0%B2%D0%B5%D0%B9-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9-206b37176/">LinkedIn</a></li>
+                </ul>
+                <p class="footer_copyright">© 2019 Матвей Горский - Пишите, пообщаемся. Ручная работа, сделано с душой ❤</p>
+            </footer>
+    </div>
+
+
+    <div id="toTop" title="Наверх" style="display: block;"> <img class="arrow-to-top" src="img/w512h5121390846468upcircular512.png" alt="error-arrow-img"> </div>
+    <script src="/js/animation/revealator.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.footer {
+    @include flex-d-col();
+    align-items: center;
+    padding: 4,5 0 0 0;
+}
+.footer_link-block {
+    @include flex-d-row();
+    align-items: center;
+    list-style-type: none;
+}
+.footer_item {
+    padding: 0 1rem;
+}
+.footer_link {
+    text-decoration: none;
+    color: #58585a;
+    font-size: 1.15rem;
+    &:hover {
+        color: #4b97c7;
+        transition: all 0.2s linear;
+    }
+}
+.logo_name:hover {
+    background: -webkit-linear-gradient(left, #58585a, #E97639, #792042, rgb(103, 232, 255));
+    background: linear-gradient(left, #58585a, #E97639, #792042, rgb(103, 232, 255));
+    background-size: 3200px 200px;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: animate-logo;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    transition: font-size 500ms ease-in-out;
+    }
+
+    @-webkit-keyframes animate-logo {
+        0% {
+        background-position: 0 3200px;
+        }
+        100% {
+        background-position: 3200px 0;
+        }
+       }
+
+.footer_copyright {
+    padding: 1rem 0;
+    font-size: .8rem;
+    line-height: 1.45;
+    letter-spacing: .5px;
+    color: #b4b3b4;
+}

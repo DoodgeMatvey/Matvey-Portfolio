@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matvey Gorskiy</title>
+    <link rel="stylesheet" href="/js/animation/revealator.css">
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
+    <script>
+    $(window).on('load', function () {
+    $preloader = $('.preloader-main'),
+    $loader = $preloader.find('.preloader');
+    $loader.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+  });
+    </script>
+
+    <script src="/js/main.js"></script> 
+</head>
+<body>
+    <div class="preloader-main">
+        <div class="preloader">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+            <div class="item-5"></div>
+        </div>
+    </div>
+              
+    <div class="container"> 
+        <section class="main-section">
+            <header class="header" id="header">
+                <div class="logo revealator-slideright revealator-delay2">
+                    <a href="index.html" class="logo_link header_link">
+                        <div class="logo_image">
+                            <span >M</span>
+                        </div>
+                        <p class="logo_name">Матвей <span class="logo-name__hidden">Горский</span></p>
+                    </a>
+                </div>
+                <nav class="nav revealator-slideleft revealator-delay2">
+                    <ul class="nav-ul">
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="about.html">Обо мне</a></li>
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="works.html">Работы</a></li>
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="about">
+                <div class="main-title-block ">
+                    <span class="word about_word word__padding " data-word="About" style="--word-index:0;"><span class="char" data-char="A" style="--char-index:0;">A</span><span class="char" data-char="b" style="--char-index:1;">b</span><span class="char" data-char="o" style="--char-index:2;">o</span><span class="char" data-char="u" style="--char-index:3;">u</span><span class="char" data-char="t" style="--char-index:4;">t</span></span>
+                    <h2 class="main-title_headline revealator-slidedown revealator-once revealator-delay4">Обо мне</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-content_item">
+                        <video loop="" muted="" autoplay="" playsinline="" class="video" src="video/tennis.mp4"></video>
+                        <div class="about-content_text-block text-left">
+                            <h3 class="about-content_title">Настольный теннис</h3>
+                            <p class="bout-content_text">Я часто выхожу на улицу и играю в настольный теннис, иногда участвую в уличных турнирах, пару раз даже выиграть получалось.</p>
+                        </div>
+                    </div>
+                    <div class="about-content_item about-content_item__flex-d">
+                        <div class="about-content_text-block text-right">
+                            <h3 class="about-content_title">Волейбол</h3>
+                            <p class="bout-content_text">Полюбил играть в волейбол ещё с детства, когда родители брали меня с собой на пляж, а я играл с мячом. Круто, когда собираеться компания с нескольких человек для зарубы!</p>
+                        </div>
+                        <video loop="" muted="" autoplay="" playsinline="" class="video" src="video/volleyball.mp4"></video>
+                    </div>
+                    <div class="about-content_item">
+                        <video loop="" muted="" autoplay="" playsinline="" class="video" src="video/fishing.mp4"></video>
+                        <div class="about-content_text-block text-left">
+                            <h3 class="about-content_title">Рыбалка</h3>
+                            <p class="bout-content_text">На природе хорошо, но рыбачить на природе лучше. Люблю ловить как белую рыбу так и хищника. Мой рекорд - щука около 3кг. </p>
+                        </div>
+                    </div>
+                    <div class="about-content_item about-content_item__flex-d">
+                        <div class="about-content_text-block text-right">
+                            <h3 class="about-content_title">Азиатская кухня</h3>
+                            <p class="bout-content_text">Как только попробовал рамен, сразу полюбил его. После, начал чаще кушать азиатскую еду. Сейчас моим любимым блюдом являеться острый wok.</p>
+                        </div>
+                        <video loop="" muted="" autoplay="" playsinline="" class="video" src="video/ramen.mp4"></video>
+                    </div>
+                </div>
+            </section>    
+            <footer class="footer">
+                <ul class="footer_link-block">
+                    <li class="footer_item"><a class="footer_link" target="_blank" href="https://t.me/DoodgeMatvey">Telegram</a></li>
+                    <li class="footer_item"><a class="footer_link" target="_blank" href="https://www.instagram.com/belov.matvei/?hl=ru">Instagram</a></li>
+                    <li class="footer_item"><a class="footer_link" target="_blank" href="https://freelancehunt.com/freelancer/Matvey_Belov.html?r=mWga5">FreelanceHunt</a></li>
+                    <li class="footer_item"><a class="footer_link" target="_blank" href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%82%D0%B2%D0%B5%D0%B9-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9-206b37176/">LinkedIn</a></li>
+                </ul>
+                <p class="footer_copyright">© 2019 Матвей Горский - Пишите, пообщаемся. Ручная работа, сделано с душой ❤</p>
+            </footer>
+    </div>
+        
+
+    <div id="toTop" title="Наверх" style="display: block;"> <img class="arrow-to-top" src="img/w512h5121390846468upcircular512.png" alt="error-arrow-img"> </div>
+    <script src="/js/animation/revealator.js"></script>
+   
+</body>
+</html>

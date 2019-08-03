@@ -1,0 +1,91 @@
+.contact {
+    @include flex-d-col();
+    align-items: center;
+    color: #2e2f35;
+    font-family: sans-serif, Arial, Helvetica;
+}
+.section-padding {
+    padding-top: 6rem;
+}
+.footer-contact {
+    padding-top: 4.5rem;
+    
+}
+.main-title_headline {
+    position: relative;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+    padding: 9.2rem 0 5.5rem 0rem;
+}
+.contact_text {
+    text-align: center;
+    width: 75%;
+    line-height: 1.7;
+    font-size: 1.75rem;
+    padding-bottom: 2rem;
+    z-index: 1;
+}
+.main-title-block {
+    padding-bottom: 1.5rem;
+    font-size: 10vw;
+}
+.word {
+    position: absolute;
+    top: 28%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #f9f7f4;
+    font-family: Renogare,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 1.5vw;
+    text-transform: uppercase;
+    z-index: 0;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.char {
+    display: inline-block;
+    -webkit-animation: slide-in 1s cubic-bezier(.5,0,.5,1) both;
+    animation: slide-in 1s cubic-bezier(.5,0,.5,1) both;
+    -webkit-animation-duration: calc(.8s + 0.12s*var(--char-index));
+    animation-duration: calc(.8s + 0.12s*var(--char-index));
+    -webkit-animation-delay: calc(100ms*var(--char-index));
+    animation-delay: calc(100ms*var(--char-index));
+}
+.email-button {
+    width: 14rem;
+}
+.email-button .button-text {
+    padding: 0;
+    top: -2px;
+}
+.email-icon {
+    position: relative;
+    font-size: 1.8rem;
+    margin-bottom: -20px;
+    top: 20px;
+    top: 3px;
+}
+#toTop {
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #333;
+    font-family: verdana;
+    font-size: 11px;
+}
+.arrow-to-top {
+    width: 50px;
+}

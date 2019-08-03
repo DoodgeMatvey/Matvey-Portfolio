@@ -1,0 +1,46 @@
+.about {
+    @include flex-d-col();
+    align-items: center;
+    color: #2e2f35;
+    padding-top: 3.9rem;
+    font-family: sans-serif, Arial, Helvetica;
+}
+.word__padding {
+    top: 24.5%;
+}
+.about-content {
+    @include flex-d-col();
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+}
+.about-content_item {
+    @include flex-d-row();
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 70%;
+    margin-bottom: 8rem;
+}
+.about-content_title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+.video {
+    width: 49%;
+    height: auto;
+}
+.bout-content_text {
+    color: #909090;
+}
+.text-left {
+    padding-left: 2.5rem;
+    text-align: left;
+}
+.text-right {
+    padding-right: 2.5rem;
+    text-align: right;
+}

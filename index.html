@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matvey Gorskiy</title>
+    <link rel="stylesheet" href="/js/animation/revealator.css">
+    <link rel="stylesheet" href="styles/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
+    <script>
+    $(window).on('load', function () {
+    $preloader = $('.preloader-main'),
+    $loader = $preloader.find('.preloader');
+    $loader.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+  });
+    </script>
+
+    <script src="/js/main.js"></script> 
+</head>
+<body>
+    <div class="preloader-main">
+        <div class="preloader">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+            <div class="item-5"></div>
+        </div>
+    </div>
+              
+    <div class="container"> 
+        <section class="main-section">
+            <header class="header" id="header">
+                <div class="logo revealator-slideright revealator-delay2">
+                    <a href="index.html" class="logo_link header_link">
+                        <div class="logo_image">
+                            <span >M</span>
+                        </div>
+                        <p class="logo_name">Матвей <span class="logo-name__hidden">Горский</span></p>
+                    </a>
+                </div>
+                <nav class="nav revealator-slideleft revealator-delay2">
+                    <ul class="nav-ul">
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="about.html">Обо мне</a></li>
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="works.html">Работы</a></li>
+                        <li class="nav-ul_item"><a class="nav-ul_link header_link" href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="section section-main">
+                <div class="sign revealator-slidedown revealator-once revealator-delay4">
+                    <span class="sign__word">M</span>
+                </div>
+                <div class="section-main_text-block revealator-slideup revealator-delay8">
+                    <p class="text-grey">Привет✌️</p>
+                    <p class="section-main_text">Я Матвей, фронт-энд разработчик. Работаю в данной сфере уже более 2 лет. Я люблю программировать и учиться новому!</p>
+                </div>
+                <p class="scroll-down-text text-grey">Крути ниже</p>
+            </section>
+           
+        </section>
+        <section class="section-portfolio">
+            
+            <div class="works">
+                <div class="works_item works_item__dark revealator-slidedown revealator-once">
+                    <a href="http://arendauto.zzz.com.ua/" target="_blank" class="works-link">
+                        <h3 class="works_describe">Аренда авто 👔</h3>
+                        <img class="image-portfolio image-portfolio-first" src="img/laptop.png" alt="Arenda auto">
+                    </a>
+                </div>
+                 <div class="works_item works_item__light revealator-slidedown revealator-once">
+                    <a href="http://taksimerr.zzz.com.ua/" target="_blank" class="works-link">
+                        <h3 class="works_describe">Таксимер 🚖</h3>
+                        <img class="image-portfolio image-portfolio-sec" src="img/s-portf.png" alt="taksimer">
+                    </a>
+                </div>
+            </div>
+            <button class="learn-more revealator-slideleft revealator-delay# revealator-once">
+                <div class="circle">
+                <span class="icon arrow"></span>
+                </div>
+                <a href="works.html" class="button-text">Больше работ</a>
+            </button> 
+        </section>
+        <section class="info">
+            <article class="info-item specialise revealator-slidedown revealator-once">
+                <h2>Я специализируюсь на фронт-энд разработке, оптимизации и продвижению, а также копированию сайтов. Делаю правки, проверяю код и даю советы по дальнейшему развитию.</h2>
+            </article>
+            <article class="info-item info-item-about">
+                <div class="info-headline">
+                    <h3 class="info-headline_text">Обо мне</h3>
+                </div>
+                <div class="info-content revealator-slidedown revealator-once">
+                    <p class="info-content_text">Мне нравится создавать сайты с помощью HTML, CSS, JS и других технологий с семантическим и валидным кодом. Я постоянно нахожусь в курсе новых тенденций, применяю лучшие отраслевые практики и адаптируюсь к современным веб-технологиям.</p>
+                    <p class="info-content_text">В свободное время от работы играю в настольный теннис или волейбол, слушаю музыку(heavy-metal, rock, pop).</p>
+                    <button class="learn-more button-about revealator-slidedown revealator-once">
+                        <div class="circle">
+                        <span class="icon arrow"></span>
+                        </div>
+                        <a href="about.html" class="button-text">Больше обо мне</a>
+                    </button> 
+                </div>
+            </article>
+            <article class="info-item info-item__padding">
+                <div class="info-headline">
+                    <h3 class="info-headline_text info-headline_text-clients">Клиенты</h3>
+                </div>
+                <div class="info-content">
+                    <div class="info-clients revealator-slidedown revealator-once">
+                        <img class="clients-image" src="/img/logo-dark.svg" alt="prana">
+                        <img class="clients-image" src="/img/madcpa.png" alt="madcpa">
+                        <img class="clients-image" src="img/freelancehunt-ru-ua.png">
+                    </div>
+                    <div class="info-clients revealator-slidedown revealator-once">
+                        <img class="clients-image alphaprylad-image" src="/img/alphaPrylad.png" alt="alphaPrylad">
+                        <img class="clients-image" src="/img/taksimer.png" alt="Taksimer">
+                        <img class="clients-image clients-image__w-auto" src="/img/rasstanovka.png" alt="rasstanovka">
+                    </div>  
+                </div>
+            </article>
+            <article class="info-item info-item__padding">
+                <div class="info-headline">
+                    <h3 class="info-headline_text">Навыки</h3>
+                </div>
+                <div class="info-content-skills">
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>Вёрстка</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/HTML5_logo_black.svg" alt="Html">
+                            <p class="skills-block_text skills-block_text__slash">HTML5</p>
+                            <img class="info-skills_image" src="img/CSS3_logo_and_wordmark.svg" alt="Css">
+                            <p class="skills-block_text">CSS3 ( </p>
+                            <img class="info-skills_image flexbox-icon" src="img/flexbox.png" alt="flexbox">
+                            <p class="skills-block_text skills-block_text__slash flexbox-text"> FlexBox</p>
+                            <img class="info-skills_image" src="img/bootstrap.svg" alt="Css">
+                            <p class="skills-block_text">Bootstrap 4 )</p>
+                        </div>
+                    </div>
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>Препроцессоры</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/sass.svg" alt="Sass">
+                            <p class="skills-block_text skills-block_text__slash">Sass</p>
+                            <img class="info-skills_image" src="img/LESS_Logo.svg.png" alt="Less">
+                            <p class="skills-block_text">Less</p>
+                        </div>
+                    </div>
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>JavaScript</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/javascript.svg" alt="JS">
+                            <p class="skills-block_text skills-block_text__slash">ES6</p>
+                            <img class="info-skills_image" src="img/jquery.svg" alt="Jquery">
+                            <p class="skills-block_text">jQuery</p>
+                        </div>
+                    </div>
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>Раздача</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/avocode.svg" alt="Avocode">
+                            <p class="skills-block_text skills-block_text__slash">Avocode</p>
+                            <img class="info-skills_image" src="img/zeplin.svg" alt="Zeplin">
+                            <p class="skills-block_text skills-block_text__slash">Zeplin</p>
+                            <img class="info-skills_image" src="img/codepen.svg" alt="CodePen">
+                            <p class="skills-block_text">CodePen</p>
+                        </div>
+                    </div>
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>IDE</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/phpstorm.svg" alt="PHPStorm">
+                            <p class="skills-block_text skills-block_text__slash">PHPStorm</p>
+                            <img class="info-skills_image" src="img/atom.svg" alt="atom">
+                            <p class="skills-block_text skills-block_text__slash">Atom</p>
+                            <!-- <img class="info-skills_image" src="img/PyCharm_Logo.svg.png" alt="PyCharm">
+                            <p class="skills-block_text skills-block_text__slash">PyCharm</p> -->
+                            <img class="info-skills_image" src="img/Microsoft-Visual-Studio-icon.png" alt="Microsoft-Visual-Studio">
+                            <p class="skills-block_text">Visual Studio</p>
+                        </div>
+                        
+                    </div>
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>Шаблоны</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/php_PNG27.png" alt="Php">
+                            <p class="skills-block_text">PHP</p>
+                          
+                        </div>
+                    </div>
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>Код</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/3409506.svg" alt="Clean">
+                            <p class="skills-block_text skills-block_text__slash">Чистый</p>
+                            <img class="info-skills_image" src="img/w3.svg" alt="Valid">
+                            <p class="skills-block_text">Валидный </p>                            
+                        </div>
+                    </div>
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>Доп. приложения</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/clockify-mark-blue.png" alt="clockify">
+                            <p class="skills-block_text skills-block_text__slash">Clockify</p>
+                            <img class="info-skills_image" src="img/asana-logo-logo-png-transparent.png" alt="Asana">
+                            <p class="skills-block_text skills-block_text__slash">Asana</p>
+                            <img class="info-skills_image" src="img/Octicons-mark-github.svg" alt="GitHub">
+                            <p class="skills-block_text">GitHub</p>
+                        </div>
+                    </div>
+                    <div class="info-skills_item revealator-slidedown revealator-once">
+                        <p>Фриланс</p>
+                        <div class="skills-block">
+                            <img class="info-skills_image" src="img/YYfC8Rom.png" alt="freelancehunt">
+                            <p class="skills-block_text skills-block_text__slash">FreelanceHunt</p>       
+                            <img class="info-skills_image" src="img/79-upwork-2-512.png" alt="UpWork">
+                            <p class="skills-block_text">UpWork</p>            
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="info-item info-item__padding">
+                <div class="info-headline">
+                    <h3 class="info-headline_text">Награды</h3>
+                </div>
+                <div class="info-content revealator-slidedown revealator-once">
+                   <p>Хм 🤔, у меня в настоящее время 0 🏆 награды. Что ж, буду стараться.</p>
+                </div>
+            </article>
+        </section>
+        <footer class="footer">
+            <ul class="footer_link-block">
+                <li class="footer_item"><a class="footer_link" target="_blank" href="https://t.me/DoodgeMatvey">Telegram</a></li>
+                <li class="footer_item"><a class="footer_link" target="_blank" href="https://www.instagram.com/belov.matvei/?hl=ru">Instagram</a></li>
+                <li class="footer_item"><a class="footer_link" target="_blank" href="https://freelancehunt.com/freelancer/Matvey_Belov.html?r=mWga5">FreelanceHunt</a></li>
+                <li class="footer_item"><a class="footer_link" target="_blank" href="https://www.linkedin.com/in/%D0%BC%D0%B0%D1%82%D0%B2%D0%B5%D0%B9-%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9-206b37176/">LinkedIn</a></li>
+            </ul>
+            <p class="footer_copyright">© 2019 Матвей Горский - Пишите, пообщаемся. Ручная работа, сделано с душой ❤</p>
+        </footer>
+        
+    </div>
+
+   
+    <div id="toTop" title="Наверх" style="display: block;"> <img class="arrow-to-top" src="img/w512h5121390846468upcircular512.png" alt="error-arrow-img"> </div>
+    <script src="/js/animation/revealator.js"></script>
+</body>
+</html>
