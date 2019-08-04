@@ -1266,6 +1266,14 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     padding-bottom: 4rem;
   }
 
+  .sign {
+    min-height: auto;
+  }
+
+  .section-main {
+    padding: 0;
+  }
+
   .main-title_headline {
     padding: 6.5rem 0 5.5rem 0rem;
   }
@@ -1448,7 +1456,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   #toTop {
-    width: 50px;
+    width: 60px;
   }
 
   .about .main-title_headline {
