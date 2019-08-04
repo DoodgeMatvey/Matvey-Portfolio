@@ -1129,7 +1129,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   .revealator-slidedown {
-    transform: translate(0, -100px);
+    transform: translate(100px, 0);
     opacity: 0;
   }
 
