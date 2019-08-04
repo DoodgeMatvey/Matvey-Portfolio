@@ -97,13 +97,17 @@ $color: $color-1, $color-2, $color-3, $color-4, $color-5;
 .preloader-main {
     background: #fff;
     overflow: hidden;
-    position: fixed;
-    left: 0;
+    position:fixed;
     top: 0;
-    right:0;
-    bottom:0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    bottom: 0;
     z-index: 9999;
     animation-delay: 1s;
+
 }
 .preloader {
     display: flex;
@@ -111,7 +115,8 @@ $color: $color-1, $color-2, $color-3, $color-4, $color-5;
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    animation-delay: 1s;
+    animation-delay: 1s; 
+    margin-top: 0vh; 
 }
 
 @for $i from 1 through 5 {

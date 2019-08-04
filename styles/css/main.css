@@ -63,8 +63,11 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   background: #fff;
   overflow: hidden;
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 0;
   bottom: 0;
   z-index: 9999;
@@ -78,6 +81,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   height: 100vh;
   overflow: hidden;
   animation-delay: 1s;
+  margin-top: 0vh;
 }
 
 .item-1 {
@@ -1266,6 +1270,10 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     padding-bottom: 4rem;
   }
 
+  .sign {
+    min-height: auto;
+  }
+
   .main-title_headline {
     padding: 6.5rem 0 5.5rem 0rem;
   }
@@ -1407,7 +1415,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   .sign__word {
-    font-size: 100vw;
+    font-size: 65vw;
   }
 
   .nav-ul .nav-ul_item {
@@ -1448,7 +1456,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   #toTop {
-    width: 50px;
+    width: 60px;
   }
 
   .about .main-title_headline {
@@ -1466,6 +1474,10 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
 
   .word {
     font-size: 20vw;
+  }
+
+  .section-main {
+    justify-content: space-between;
   }
 }
 @media (max-width: 438px) {
@@ -1538,6 +1550,14 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     margin-bottom: 0;
     margin-left: 8px;
     top: 0;
+  }
+
+  .section-main {
+    padding: 3rem 0 0rem;
+  }
+
+  .section-portfolio {
+    margin-top: 4rem;
   }
 }
 @media (max-width: 380px) {

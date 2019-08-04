@@ -115,7 +115,10 @@
         padding-bottom: 4rem;
     }
 
-
+    .sign {
+        min-height: auto;
+    }
+  
 
     //about------
     .main-title_headline {
@@ -240,7 +243,7 @@
         margin-bottom: 6rem;
     }
     .sign__word {
-        font-size: 100vw;
+        font-size: 65vw;
     }
     .nav-ul .nav-ul_item {
         margin-left: 0.8rem;
@@ -273,7 +276,7 @@
        
     }
     #toTop {
-        width: 50px;
+        width: 60px;
     }
     //about------
     .about .main-title_headline {
@@ -292,7 +295,9 @@
         font-size: 20vw;
     }
     //works-end-----
-
+    .section-main {
+        justify-content: space-between;
+    }
 
   
 }
@@ -374,6 +379,12 @@
             top: 0;
         }
     }
+    .section-main {
+        padding: 3rem 0 0rem;
+    }
+    .section-portfolio {
+        margin-top: 4rem;
+      }
 }
 @media (max-width: 380px) { 
     .works_describe {
