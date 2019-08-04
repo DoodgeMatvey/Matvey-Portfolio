@@ -1270,10 +1270,6 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     min-height: auto;
   }
 
-  .section-main {
-    padding: 12rem 0 4rem;
-  }
-
   .main-title_headline {
     padding: 6.5rem 0 5.5rem 0rem;
   }
