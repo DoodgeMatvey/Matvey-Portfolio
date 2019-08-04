@@ -1411,7 +1411,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   .sign__word {
-    font-size: 80vw;
+    font-size: 65vw;
   }
 
   .nav-ul .nav-ul_item {
@@ -1470,6 +1470,10 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
 
   .word {
     font-size: 20vw;
+  }
+
+  .section-main {
+    justify-content: space-between;
   }
 }
 @media (max-width: 438px) {
