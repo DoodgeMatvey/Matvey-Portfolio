@@ -1550,8 +1550,11 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
 
   .section-main {
     padding: 3rem 0 0rem;
-    margin-bottom: 4rem;
-}
+  }
+
+  .section-portfolio {
+    margin-top: 4rem;
+  }
 }
 @media (max-width: 380px) {
   .works_describe {
