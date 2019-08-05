@@ -12,9 +12,9 @@
     .word {
         font-size: 15vw;
     }
-    .section-main_text-block {
-        transform: translate(0px, 100px);
-        opacity: 0; 
+    .revealator-slideright-hi {
+        transform: translate(0, 0);
+        opacity: 1;
     }
 }
 @media (max-width: 990px) {
@@ -414,7 +414,10 @@
     .section-main_text {
         font-size: 2.9rem;
     }
-   
+    .revealator-slideright-hi {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
     .section-main_text-block {
         transform: translate(0px, 100px);
         opacity: 0; 
