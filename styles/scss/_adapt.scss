@@ -18,13 +18,13 @@
         width: 70px;
     }
     .revealator-slidedown {
-        transform: translate(100px, 0);
+        transform: translate(0, 0);
         opacity: 0;
     }
-    .section-main_text-block {
-        transform: translate(0px, 0px);
-        opacity: 1; 
-    }
+    // .section-main_text-block {
+    //     transform: translate(0px, 0px);
+    //     opacity: 1; 
+    // }
     .works {
         @include flex-d-col();
         align-items: center;
