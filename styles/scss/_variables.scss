@@ -107,7 +107,7 @@ $color: $color-1, $color-2, $color-3, $color-4, $color-5;
     bottom: 0;
     z-index: 9999;
     animation-delay: 1s;
-
+    width: 100%;
 }
 .preloader {
     display: flex;
@@ -117,6 +117,7 @@ $color: $color-1, $color-2, $color-3, $color-4, $color-5;
     overflow: hidden;
     animation-delay: 1s; 
     margin-top: 0vh; 
+    width: 100%;
 }
 
 @for $i from 1 through 5 {
