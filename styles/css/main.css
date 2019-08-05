@@ -1130,9 +1130,23 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     width: 70px;
   }
 
+  .revealator-slideright-hi {
+    transform: translate(-100px, 0);
+    opacity: 0;
+  }
+
   .revealator-slidedown {
     transform: translate(0, 0);
-    opacity: 0;
+    opacity: 1;
+  }
+
+  .sign {
+    transform: translate(0, -100px);
+  }
+
+  .section-main_text-block {
+    transform: translate(0px, 0px);
+    opacity: 1;
   }
 
   .works {
@@ -1574,6 +1588,16 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
 
   .section-main_text {
     font-size: 2.9rem;
+  }
+
+  .revealator-slideright-hi {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  .section-main_text-block {
+    transform: translate(0px, 100px);
+    opacity: 0;
   }
 }
 @media (min-width: 1450px) {
