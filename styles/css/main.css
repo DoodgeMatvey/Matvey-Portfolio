@@ -948,7 +948,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
 
 .email-button .button-text {
   padding: 0;
-  top: -2px;
+  top: -3px;
 }
 
 .email-icon {
@@ -1435,6 +1435,10 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 }
 @media (max-width: 576px) {
+  .works_describe {
+    font-size: 1.8rem;
+  }
+
   .section-main_text {
     font-size: 1.8rem;
     margin-bottom: 6rem;
@@ -1510,6 +1514,15 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     justify-content: space-between;
   }
 
+  .contact_text {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .contact .main-title_headline {
+    font-size: 1.8rem;
+  }
+
   .contact_word {
     font-size: 16vw;
   }
@@ -1583,6 +1596,11 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
 
   .section-portfolio {
     margin-top: 4rem;
+  }
+
+  .email-button .button-text {
+    padding: 0;
+    top: 0px;
   }
 }
 @media (max-width: 380px) {

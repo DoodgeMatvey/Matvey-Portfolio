@@ -252,7 +252,9 @@
     //cotacts-end-----
 }
 @media (max-width: 576px) {
-
+    .works_describe {
+        font-size: 1.8rem;
+    }
     .section-main_text {
         font-size: 1.8rem;
         margin-bottom: 6rem;
@@ -316,10 +318,18 @@
     .section-main {
         justify-content: space-between;
     }
-
+    //contact------
+    .contact_text {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .contact .main-title_headline {
+        font-size: 1.8rem;
+    }
     .contact_word {
         font-size: 16vw;
     }
+    //contact-end-----
 }
 @media (max-width: 438px) {
     .section-portfolio {
@@ -398,7 +408,11 @@
     }
     .section-portfolio {
         margin-top: 4rem;
-      }
+    }
+    .email-button .button-text {
+        padding: 0;
+        top: 0px;
+    }
 }
 @media (max-width: 380px) { 
     .works_describe {
