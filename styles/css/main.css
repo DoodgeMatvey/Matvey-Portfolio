@@ -1489,7 +1489,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   .about_word {
-    top: 13%;
+    top: 8rem;
     font-size: 20vw;
   }
 
@@ -1557,16 +1557,11 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   .word {
-    font-size: 25vw;
+    font-size: 20vw;
   }
 
   .about .main-title_headline {
     padding: 2.3rem 0 2rem 0rem;
-  }
-
-  .about_word {
-    top: 13%;
-    font-size: 20vw;
   }
 
   .email-button .email-icon {
