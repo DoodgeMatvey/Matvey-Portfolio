@@ -169,7 +169,7 @@
         padding-bottom: 0;
     }
     .word__padding {
-        top: 20%;
+        top: 12rem;
     }
     .headline__padding {
         padding-top: 4.5rem;
@@ -181,7 +181,7 @@
         width: 100%;
     }
     .contact_word {
-        top: 24%;
+        top: 14.4rem;
     }
     //cotacts-end-----
     
@@ -235,7 +235,7 @@
         font-size: 2rem;
     }
     .word__padding {
-        top: 16%;
+        top: 9.7rem;
     }
     .main-title_headline {
         padding: 2rem 0 3.5rem 0rem;
@@ -247,7 +247,7 @@
         width: 100%;
     }
     .contact_word {
-        top: 20%;
+        top: 9.8rem;
     }
     //cotacts-end-----
 }
@@ -309,12 +309,17 @@
     .word {
         font-size: 20vw;
     }
+    .word_work {
+        font-size: 25vw;
+    }
     //works-end-----
     .section-main {
         justify-content: space-between;
     }
 
-  
+    .contact_word {
+        font-size: 16vw;
+    }
 }
 @media (max-width: 438px) {
     .section-portfolio {
@@ -371,10 +376,8 @@
         //     }
         // }
     }
-      //works------
-    .word {
-        font-size: 20vw;
-    }
+    //works------
+
     //works-end-----
     //about------
       .about .main-title_headline {
