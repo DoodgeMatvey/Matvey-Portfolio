@@ -80,7 +80,6 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   overflow: hidden;
   animation-delay: 1s;
   margin-top: 0vh;
@@ -1341,7 +1340,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   .word__padding {
-    top: 12rem;
+    top: 12.5rem;
   }
 
   .headline__padding {
@@ -1418,7 +1417,7 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
 
   .word__padding {
-    top: 9.7rem;
+    top: 9.9rem;
   }
 
   .main-title_headline {
