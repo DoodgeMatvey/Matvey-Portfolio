@@ -2,6 +2,7 @@
     @include flex-d-col();
     align-items: center;
     padding: 4,5 0 0 0;
+    width: 100%;
 }
 .footer_link-block {
     @include flex-d-row();
