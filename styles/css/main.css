@@ -73,13 +73,13 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   z-index: 9999;
   animation-delay: 1s;
   width: 100%;
-  height: 100vh;
 }
 
 .preloader {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   overflow: hidden;
   animation-delay: 1s;
   margin-top: 0vh;
