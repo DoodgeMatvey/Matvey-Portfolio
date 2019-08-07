@@ -1,17 +1,17 @@
                                                 English
-# Matvey Gorskiy
+# Matvey Gorskiy👌
   For what?
   -----------
 
   I made this site to show my skills in layout, using various plugins, 
   as well as adaptability and cross-browser compatibility.
 
-  Licensing
+  Licensing✔
   ---------
 
   Please see the file called LICENSE.
 
-  Which technologies did i use:
+  Which technologies did i use :
   -----------------------------
 
   - HTML5(BEM), CSS3(flexbox, animations, adaptive, crossbrouser), SASS/SCSS;
