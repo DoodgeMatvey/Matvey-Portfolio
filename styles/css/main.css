@@ -1523,6 +1523,18 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     font-size: 1.8rem;
   }
 
+  .contact .main-title-block {
+    padding-bottom: 0;
+  }
+
+  .email-button {
+    width: 13rem;
+  }
+
+  .email-icon {
+    display: none;
+  }
+
   .contact_word {
     font-size: 16vw;
   }
@@ -1601,11 +1613,16 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   .email-button .button-text {
     padding: 0;
     top: 0px;
+    margin-left: 30px;
   }
 }
 @media (max-width: 380px) {
   .works_describe {
     font-size: 1.4rem;
+  }
+
+  .contact .main-title_headline {
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 350px) {
