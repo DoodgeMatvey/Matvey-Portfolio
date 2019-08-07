@@ -3,10 +3,10 @@
     #по умолчанию кеш на 5 секунд
     ExpiresDefault "access plus 5 seconds"
     #кэшируем флэш и изображения на месяц
-    ExpiresByType image/x-icon "access plus 1 month"
-    ExpiresByType image/jpeg "access plus 4 weeks"
-    ExpiresByType image/png "access plus 30 days"
-    ExpiresByType image/gif "access plus 43829 minutes"
+    ExpiresByType img/x-icon "access plus 1 month"
+    ExpiresByType img/jpeg "access plus 4 weeks"
+    ExpiresByType img/png "access plus 30 days"
+    ExpiresByType img/gif "access plus 43829 minutes"
     ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
     #кэшируем CSS, JavaScript и текстовые файлы на одну неделю
     ExpiresByType text/css "access plus 604800 seconds"
