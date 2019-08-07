@@ -1527,19 +1527,19 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     padding-bottom: 0;
   }
 
+  .contact_word {
+    font-size: 16vw;
+  }
+}
+@media (max-width: 438px) {
   .email-button {
-    width: 13rem;
+    width: 12rem;
   }
 
   .email-icon {
     display: none;
   }
 
-  .contact_word {
-    font-size: 16vw;
-  }
-}
-@media (max-width: 438px) {
   .section-portfolio {
     margin-bottom: 2rem;
   }

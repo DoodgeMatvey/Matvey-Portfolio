@@ -329,18 +329,20 @@
     .contact .main-title-block {
         padding-bottom: 0;
     }
-    .email-button {
-        width: 13rem;
-    }
-    .email-icon {
-        display: none;
-    }
+
+   
     .contact_word {
         font-size: 16vw;
     }
     //contact-end-----
 }
 @media (max-width: 438px) {
+    .email-button {
+        width: 12rem;
+    }
+    .email-icon {
+        display: none;
+    }
     .section-portfolio {
         margin-bottom: 2rem;
     }
