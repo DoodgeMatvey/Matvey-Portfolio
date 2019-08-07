@@ -1,4 +1,4 @@
-My Portfolio
+                                                English
 # Matvey Gorskiy
   For what?
   -----------
@@ -29,7 +29,7 @@ My Portfolio
        
      o If you want to support me:
        PrivatBank card - 5168 7573 9714 0940;
-
+                                                Русский
 # Матвей Горский
   Для чего?
   -----------
