@@ -17,7 +17,7 @@
   - HTML5(BEM), CSS3(flexbox, animations, adaptive, crossbrouser), SASS/SCSS;
   - JS, JQuery(slideToTop, Preloader, Revealator, reverse-scale);
 
-  Contacts 📞
+  Contacts🤙
   --------
 
      o If you want to order the services of a web developer 
@@ -29,6 +29,7 @@
        
      o If you want to support me:
        PrivatBank card - 5168 7573 9714 0940;
+       
                                                 Русский
 # Матвей Горский
   Для чего?
