@@ -443,6 +443,10 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   user-select: none;
 }
 
+.text-h2_about-bold {
+  font-family: cursive;  
+}
+
 /*-- Animation Keyframes --*/
 @keyframes neon {
   0% {
