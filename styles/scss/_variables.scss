@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"');
 @font-face {
   font-family: Renogare; /* Имя шрифта */
+  font-display: auto;
   src: url("../../fonts/Renogare-Regular.otf"); /* Путь к файлу со шрифтом */
  }
 @mixin flex-d-row() {

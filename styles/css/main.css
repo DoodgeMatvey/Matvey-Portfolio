@@ -4,6 +4,7 @@
 @font-face {
   font-family: Renogare;
   /* Имя шрифта */
+  font-display: auto;
   src: url("../../fonts/Renogare-Regular.otf");
   /* Путь к файлу со шрифтом */
 }
