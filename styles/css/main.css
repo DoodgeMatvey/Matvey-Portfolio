@@ -1616,6 +1616,11 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
     top: 0px;
     margin-left: 30px;
   }
+
+  .contact_text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
 @media (max-width: 380px) {
   .works_describe {
