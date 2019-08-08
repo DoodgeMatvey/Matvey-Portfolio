@@ -48,3 +48,15 @@ $(function() {
         $('body,html').animate({scrollTop:0},800);
     });
 });
+
+
+$(function(){
+    $('.text-grey').hover(function(){
+      $('.sign__word').addClass('sign__hover-color');
+      $('.sign__word').removeClass('sign__color');
+     },
+    function(){
+      $('.sign__word').addClass('sign__color');
+      $('.sign__word').removeClass('sign__hover-color');
+     });
+});

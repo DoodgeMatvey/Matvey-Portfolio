@@ -431,6 +431,9 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
 .sign__word {
   background-size: 100%;
   background: linear-gradient(45deg, #07142a 10%, #0b295a 33%, #2088f8 70%, white 85%);
+  background: -ms-linear-gradient(45deg, #07142a 10%, #0b295a 33%, #2088f8 70%, white 85%);
+  background: 0-linear-gradient 45deg, #07142a 10%, #0b295a 33%, #2088f8 70%, white 85%;
+  background: -webkit-linear-gradient(45deg, #07142a 10%, #0b295a 33%, #2088f8 70%, white 85%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 35rem;
@@ -443,12 +446,20 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   user-select: none;
 }
 
-.text-h2_about-bold {
-  font-family: cursive;  
+.sign__hover-color {
+  animation: neon-red 1s linear;
+  background: linear-gradient(90deg, #0B2349 30%, rgba(255, 0, 0, 0)) 60%, red;
+  -webkit-background-clip: text;
+}
+
+.sign__color {
+  animation: neon-blue 1s linear;
+  background: linear-gradient(45deg, #07142a 10%, #0b295a 33%, #2088f8 70%, white 85%);
+  -webkit-background-clip: text;
 }
 
 /*-- Animation Keyframes --*/
-@keyframes neon {
+@keyframes neon-red {
   0% {
     background: linear-gradient(90deg, #0B2349 30%, rgba(255, 0, 0, 0)) 60%, red;
     -webkit-background-clip: text;
@@ -456,6 +467,18 @@ body, ul, li, p, h1, h2, h3, h4, h5, h6, header, main {
   }
   100% {
     background: linear-gradient(90deg, #0B2349 30%, rgba(255, 0, 0, 0)) 60%, red;
+    -webkit-background-clip: text;
+    opacity: 1;
+  }
+}
+@keyframes neon-blue {
+  0% {
+    background: linear-gradient(45deg, #07142a 10%, #0b295a 33%, #2088f8 70%, white 85%);
+    -webkit-background-clip: text;
+    opacity: 0.5;
+  }
+  100% {
+    background: linear-gradient(45deg, #07142a 10%, #0b295a 33%, #2088f8 70%, white 85%);
     -webkit-background-clip: text;
     opacity: 1;
   }

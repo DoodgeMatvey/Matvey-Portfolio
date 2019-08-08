@@ -49,9 +49,9 @@
     &__word {
         background-size: 100%;
         background: linear-gradient(45deg,rgb(7, 20, 42) 10%, rgb(11, 41, 90) 33%, rgb(32, 136, 248) 70%, rgb(255, 255, 255) 85%);
-        // background: -ms-linear-gradient(45deg,rgb(8, 24, 51) 10%, #0B2349 33%, rgb(20, 96, 177) 66%, rgb(148, 180, 228) 90%,rgb(177, 208, 255) );
-        // background: -0-linear-gradient(45deg,rgb(8, 24, 51) 10%, #0B2349 33%, rgb(20, 96, 177) 66%, rgb(148, 180, 228) 90%,rgb(177, 208, 255) );
-        // background: -webkit-linear-gradient(45deg,rgb(8, 24, 51) 10%, #0B2349 33%, rgb(20, 96, 177) 66%, rgb(148, 180, 228) 90%,rgb(177, 208, 255) );
+        background: -ms-linear-gradient(45deg,rgb(7, 20, 42) 10%, rgb(11, 41, 90) 33%, rgb(32, 136, 248) 70%, rgb(255, 255, 255) 85%);
+        background: -0-linear-gradient(45deg,rgb(7, 20, 42) 10%, rgb(11, 41, 90) 33%, rgb(32, 136, 248) 70%, rgb(255, 255, 255) 85%);
+        background: -webkit-linear-gradient(45deg,rgb(7, 20, 42) 10%, rgb(11, 41, 90) 33%, rgb(32, 136, 248) 70%, rgb(255, 255, 255) 85%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 35rem;
@@ -66,14 +66,23 @@
     }
   
   }
- 
+ .sign__hover-color {
+    animation: neon-red 1s linear;
+    background: linear-gradient(90deg, #0B2349 30%, rgba(255, 0, 0, 0)) 60%, rgb(255, 0, 0);
+    -webkit-background-clip: text;  
+ }
+  .sign__color {
+    animation: neon-blue 1s linear;
+    background: linear-gradient(45deg,rgb(7, 20, 42) 10%, rgb(11, 41, 90) 33%, rgb(32, 136, 248) 70%, rgb(255, 255, 255) 85%);
+    -webkit-background-clip: text;  
+  }
   /*-- Animation Keyframes --*/
   
 
   
   // animation
   
-  @keyframes neon {
+  @keyframes neon-red {
     0% {
         background: linear-gradient(90deg, #0B2349 30%, rgba(255, 0, 0, 0)) 60%, rgb(255, 0, 0);
         -webkit-background-clip: text;  
@@ -84,6 +93,21 @@
       -webkit-background-clip: text;  
       opacity: 1; 
   }
+  
+  }
+    
+  @keyframes neon-blue {
+    0% {
+        background: linear-gradient(45deg,rgb(7, 20, 42) 10%, rgb(11, 41, 90) 33%, rgb(32, 136, 248) 70%, rgb(255, 255, 255) 85%);
+        -webkit-background-clip: text;  
+        opacity: 0.5; 
+    }
+    100% {
+        background: linear-gradient(45deg,rgb(7, 20, 42) 10%, rgb(11, 41, 90) 33%, rgb(32, 136, 248) 70%, rgb(255, 255, 255) 85%);
+      -webkit-background-clip: text;  
+      opacity: 1; 
+  }
+  
   }
 .scroll-down-text {
     position: absolute;
