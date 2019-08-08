@@ -429,7 +429,12 @@
         font-size: 1rem;
         line-height: 1.5;
     }
-    
+    .word__padding {
+        top: 8.9rem;
+    }
+    .portfolio .main-title_headline {
+        padding: 1rem 0 3.5rem 0rem;
+    }
 }
 @media (max-width: 380px) { 
     .works_describe {
